@@ -10,8 +10,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Bhadoo Cloud - Upload to Google Drive</title>
-    <meta name="description" content="Upload Files using URL to Google Drive the easy way.">
+    <title>Tải lên Google Drive</title>
+    <meta name="description" content="Tải tệp lên bằng URL lên Google Drive một cách dễ dàng.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="ReTB1LPGTaMBFG8EIW7EoAIXcr3QKu-RibNeVm7WkeM" />
     <meta name="robots" content="all,follow">
@@ -79,11 +79,11 @@
                     <c:choose>
 	                    <c:when test='${empty(user)}'>
                         <li class="nav-item">
-			<img class="g-login" src="https://cdn.jsdelivr.net/gh/jscdn/images@1.0.3/logo/google/signin/btn_google_signin_light_normal_web.png" title="Sign in with Google" onclick="location.href = '/api/oauth/google/redirect'">
+			<img class="g-login" src="https://cdn.jsdelivr.net/gh/jscdn/images@1.0.3/logo/google/signin/btn_google_signin_light_normal_web.png" title="Đăng nhập bằng Google" onclick="location.href = '/api/oauth/google/redirect'">
 			</li>
                         </c:when>
                         <c:otherwise>	
-                        <li class="nav-item"><a href="/api/oauth/google/redirect">Switch User</a></li>
+                        <li class="nav-item"><a href="/api/oauth/google/redirect">Chuyển đổi người dùng</a></li>
                         </c:otherwise>
 	                </c:choose>
                     </ul>
@@ -116,14 +116,14 @@
                     </c:otherwise>
                 </c:choose>
             </div>
-            <!-- Sidebar Navidation Menus --><span class="heading">Main</span>
+            <!-- Sidebar Navidation Menus --><span class="heading">Chính</span>
             <ul class="list-unstyled">
-                <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
-                <li><a href="/new_upload"><i class="fa fa-cloud-upload"></i>New Upload</a></li>
-                <li><a href="/uploads"> <i class="fa fa-tachometer"></i>Your Uploads</a></li>
-                <!-- <li><a href="https://github.com/ParveenBhadooOfficial/SaveToGoogleDrive/issues"> <i class="fa fa-thumbs-o-up"></i>Suggest an Idea</a></li> -->
-                <!-- <li><a href="https://github.com/ParveenBhadooOfficial/SaveToGoogleDrive/issues"> <i class="fa fa-bug"></i>Report a Bug</a></li> -->
-                <li><a href="https://hashhackers.com/contact"> <i class="fa fa-envelope-o "></i>Contact</a></li>
+                <li><a href="/"><i class="fa fa-home"></i>Trang Chủ</a></li>
+                <li><a href="/new_upload"><i class="fa fa-cloud-upload"></i>Tải lên mới</a></li>
+                <li><a href="/uploads"> <i class="fa fa-tachometer"></i>Tải lên của bạn</a></li>
+                <!-- <li><a href="https://github.com/ParveenBhadooOfficial/SaveToGoogleDrive/issues"> <i class="fa fa-thumbs-o-up"></i>Đề xuất một ý tưởng</a></li> -->
+                <!-- <li><a href="https://github.com/ParveenBhadooOfficial/SaveToGoogleDrive/issues"> <i class="fa fa-bug"></i>Báo cáo lỗi</a></li> -->
+                <li><a href="https://hashhackers.com/contact"> <i class="fa fa-envelope-o "></i>Liên hệ</a></li>
             </ul>
         </nav>
         <div class="content-inner" id="content-inner">
